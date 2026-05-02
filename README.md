@@ -14,6 +14,8 @@ It combines AI hand tracking with 3D rendering to create a futuristic, immersive
 🌌 Multiple 3D Shapes
 ⚡ High-performance WebGL Rendering
 🎮 Gesture Controls
+
+
 Gesture	Action
 ✌️ Victory	Switch to next shape
 👌 Pinch	Expand / Contract particles
@@ -24,6 +26,8 @@ Gesture	Action
 🪐 Saturn
 🌸 Flower
 🍩 Torus
+
+
 🛠️ Tech Stack
 Technology	Purpose
 Three.js	3D rendering
@@ -31,6 +35,7 @@ MediaPipe Hands	Hand tracking AI
 WebGL	Graphics performance
 JavaScript (ES6+)	Logic
 HTML5 + CSS3	UI
+
 🤖 Built With AI Assistance
 
 This project was enhanced using:
