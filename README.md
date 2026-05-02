@@ -1,101 +1,149 @@
-🌌 Hand Gesture Controlled 3D Particle System
-<p align="center"> <b>AI-powered interactive 3D visualization using hand gestures in real-time</b><br><br> <img src="https://img.shields.io/badge/Three.js-3D-black?style=for-the-badge&logo=three.js"> <img src="https://img.shields.io/badge/MediaPipe-AI-blue?style=for-the-badge&logo=google"> <img src="https://img.shields.io/badge/WebGL-Graphics-green?style=for-the-badge"> <img src="https://img.shields.io/badge/Status-Active-success?style=for-the-badge"> </p>
-✨ Overview
+# 🌌 Hand Gesture Controlled 3D Particle System
 
-This project is an interactive 3D particle system that reacts to your hand gestures in real-time using your webcam.
+<p align="center">
+	<b>AI-powered interactive 3D visualization using hand gestures in real time</b><br><br>
+	<img src="https://img.shields.io/badge/Three.js-3D%20Graphics-black?style=for-the-badge&logo=three.js" alt="Three.js badge">
+	<img src="https://img.shields.io/badge/MediaPipe-Hand%20Tracking-blue?style=for-the-badge&logo=google" alt="MediaPipe badge">
+	<img src="https://img.shields.io/badge/WebGL-High%20Performance-green?style=for-the-badge" alt="WebGL badge">
+	<img src="https://img.shields.io/badge/Status-Active-success?style=for-the-badge" alt="Status badge">
+</p>
 
-It combines AI hand tracking with 3D rendering to create a futuristic, immersive visual experience.
+---
 
-🎯 Key Features
-🎥 Real-time Hand Tracking
-🧠 Gesture Recognition System
-🌈 Dynamic Color Mapping
-🔄 Smooth Particle Morphing
-🌌 Multiple 3D Shapes
-⚡ High-performance WebGL Rendering
-🎮 Gesture Controls
+## ✨ Overview
 
+This project is an interactive 3D particle system that responds to hand gestures captured through your webcam.
 
-Gesture	Action
-✌️ Victory	Switch to next shape
-👌 Pinch	Expand / Contract particles
-✊ Fist	Collapse particle core
-🌠 Available Shapes
-🔵 Sphere
-❤️ Heart
-🪐 Saturn
-🌸 Flower
-🍩 Torus
+It blends AI hand tracking with 3D rendering to create a futuristic, immersive, and highly responsive visual experience.
 
+## 🎯 Features
 
-🛠️ Tech Stack
-Technology	Purpose
-Three.js	3D rendering
-MediaPipe Hands	Hand tracking AI
-WebGL	Graphics performance
-JavaScript (ES6+)	Logic
-HTML5 + CSS3	UI
+| Feature | Description |
+|---|---|
+| 🎥 Real-time hand tracking | Detects hand movement live from your webcam |
+| 🧠 Gesture recognition | Recognizes gestures and maps them to particle actions |
+| 🌈 Dynamic colors | Uses smooth color transitions for a more vivid effect |
+| 🔄 Particle morphing | Animates particles between different shapes |
+| 🌌 Multiple 3D shapes | Switch between several generated particle forms |
+| ⚡ Fast rendering | Powered by WebGL and Three.js for smooth performance |
+| 🎮 Gesture controls | Simple gestures make the scene interactive |
 
-🤖 Built With AI Assistance
+## 🤏 Gesture Controls
 
-This project was enhanced using:
+| Gesture | Action |
+|---|---|
+| ✌️ Victory sign | Switch to the next shape |
+| 👌 Pinch | Expand or contract particles |
+| ✊ Fist | Collapse the particle core |
 
-ChatGPT
-Google Gemini
-GitHub Copilot
+## 🌠 Available Shapes
 
-AI tools helped accelerate development, optimize logic, and improve creativity.
+- 🔵 Sphere
+- ❤️ Heart
+- 🪐 Saturn
+- 🌸 Flower
+- 🍩 Torus
 
-🚀 Getting Started
-1️⃣ Clone Repository
-git clone https://github.com/your-username/your-repo-name.git
-2️⃣ Open Project
-cd your-repo-name
-3️⃣ Run Locally
+## 🛠️ Tech Stack
 
-Use a local server (important for webcam access):
+| Technology | Purpose |
+|---|---|
+| Three.js | 3D rendering |
+| MediaPipe Hands | Hand tracking AI |
+| WebGL | Graphics performance |
+| JavaScript (ES6+) | Application logic |
+| HTML5 + CSS3 | User interface |
 
-# VS Code
-Right Click → Open with Live Server
-⚙️ Requirements
-🌐 Modern Browser (Chrome recommended)
-🎥 Webcam Access Enabled
-📶 Internet (for CDN libraries)
-🧠 How It Works
-MediaPipe detects 21 hand landmarks
-Gestures are calculated using landmark positions
-Mathematical formulas generate 3D shapes
-Particles move using LERP interpolation
-Three.js renders everything in real-time
-📁 Project Structure
-📦 project
- └── index.html   # Complete application
-📸 Demo Preview
-<p align="center"> 👉 Add GIF / Screenshot here for best impact </p>
-🚧 Future Enhancements
-🎵 Music reactive particles
-📱 Mobile support
-🥽 AR/VR integration
-🎨 Custom shape generator
-🧩 More gesture controls
-🙌 Credits
-Three.js Community
-MediaPipe Team
-AI Development Tools
-📜 License
+## 🚀 Getting Started
 
-This project is open-source and free to use.
+### 1. Clone the repository
 
-⭐ Show Your Support
+```bash
+git clone https://github.com/Saurabh24500/Particles_Game.git
+cd Particles_Game
+```
 
-If you like this project:
+### 2. Open the project
 
-⭐ Star the repository
-🍴 Fork it
-🚀 Share with others
-👨‍💻 Author
+Open `Particles.html` in VS Code or your preferred editor.
+
+### 3. Run locally
+
+Use a local server because webcam access usually requires it.
+
+```bash
+# Example with VS Code Live Server
+# Right-click Particles.html and choose Open with Live Server
+```
+
+## ⚙️ Requirements
+
+- 🌐 A modern browser such as Chrome or Edge
+- 🎥 Webcam permission enabled
+- 📶 Internet connection for CDN-based libraries
+
+## 🧠 How It Works
+
+1. MediaPipe detects 21 hand landmarks.
+2. Gesture logic interprets landmark relationships.
+3. Mathematical point generation creates the 3D shapes.
+4. Particles move using smooth interpolation.
+5. Three.js renders the final scene in real time.
+
+## 📁 Project Structure
+
+```text
+Particles_Game/
+├── Particles.html
+└── README.md
+```
+
+## 📸 Demo Preview
+
+<p align="center">
+	<img src="https://placehold.co/1200x675/0f172a/f8fafc?text=Add+your+demo+screenshot+or+GIF+here" alt="Demo preview placeholder">
+</p>
+
+## 🤖 Built With AI Assistance
+
+This project was improved using:
+
+- ChatGPT
+- Google Gemini
+- GitHub Copilot
+
+AI tools helped speed up development, refine the logic, and improve the overall presentation.
+
+## 🚧 Future Enhancements
+
+- 🎵 Music-reactive particles
+- 📱 Better mobile support
+- 🥽 AR or VR integration
+- 🎨 Custom shape generator
+- 🧩 More gesture controls
+
+## 🙌 Credits
+
+- Three.js Community
+- MediaPipe Team
+- AI development tools
+
+## 📜 License
+
+This project is open source and free to use.
+
+## ⭐ Show Your Support
+
+If you like this project, consider:
+
+- ⭐ Starring the repository
+- 🍴 Forking it
+- 🚀 Sharing it with others
+
+## 👨‍💻 Author
 
 Saurabh Patel
+
 Computer Engineering Student
 
-💡 “Where AI meets creativity and real-time interaction.”
+> 💡 Where AI meets creativity and real-time interaction.
