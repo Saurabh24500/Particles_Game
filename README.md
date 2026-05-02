@@ -98,6 +98,39 @@ Particles_Game/
 └── README.md
 ```
 
+## 🧾 Code Preview
+
+This is a small excerpt from [Particles.html](Particles.html) that shows the main app structure and gesture-driven UI.
+
+```html
+<body>
+	<div id="loading">Loading AI Models...</div>
+	<div id="ui">
+		<h2 id="shape-name">Shape: Sphere</h2>
+		<div class="instruction">✌️ <b>Victory Sign</b>: Next Shape</div>
+		<div class="instruction">👌 <b>Pinch</b>: Expand/Contract</div>
+		<div class="instruction">✊ <b>Fist</b>: Collapse Core</div>
+	</div>
+
+	<video id="video-input"></video>
+	<div id="canvas-container"></div>
+
+	<script type="module">
+		function onResults(results) {
+			if (results.multiHandLandmarks && results.multiHandLandmarks.length > 0) {
+				const landmarks = results.multiHandLandmarks[0];
+				const thumbTip = landmarks[4];
+				const indexTip = landmarks[8];
+				const distance = Math.sqrt(
+					Math.pow(thumbTip.x - indexTip.x, 2) +
+					Math.pow(thumbTip.y - indexTip.y, 2)
+				);
+			}
+		}
+	</script>
+</body>
+```
+
 ## 📸 Visual Preview
 
 <p align="center">
