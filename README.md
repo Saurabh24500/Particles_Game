@@ -1,89 +1,96 @@
-🚀 Hand Gesture Controlled 3D Particle System
+🌌 Hand Gesture Controlled 3D Particle System
+<p align="center"> <b>AI-powered interactive 3D visualization using hand gestures in real-time</b><br><br> <img src="https://img.shields.io/badge/Three.js-3D-black?style=for-the-badge&logo=three.js"> <img src="https://img.shields.io/badge/MediaPipe-AI-blue?style=for-the-badge&logo=google"> <img src="https://img.shields.io/badge/WebGL-Graphics-green?style=for-the-badge"> <img src="https://img.shields.io/badge/Status-Active-success?style=for-the-badge"> </p>
+✨ Overview
 
-An interactive AI-powered 3D particle visualization that responds to real-time hand gestures using your webcam.
-Built using Three.js + MediaPipe Hands + AI-assisted development tools.
+This project is an interactive 3D particle system that reacts to your hand gestures in real-time using your webcam.
 
-🎯 Features
-✨ Real-time hand tracking using AI
-🧠 Gesture-based interaction:
-✌️ Victory Sign → Switch shapes
-👌 Pinch → Expand / Contract particles
-✊ Fist → Collapse particle core
-🌌 Multiple dynamic 3D shapes:
-Sphere
-Heart ❤️
-Saturn 🪐
-Flower 🌸
-Torus 🍩
-🎨 Color changes based on hand movement
-🔄 Smooth particle morphing animation
-🎥 Live webcam integration (mirrored for natural interaction)
+It combines AI hand tracking with 3D rendering to create a futuristic, immersive visual experience.
+
+🎯 Key Features
+🎥 Real-time Hand Tracking
+🧠 Gesture Recognition System
+🌈 Dynamic Color Mapping
+🔄 Smooth Particle Morphing
+🌌 Multiple 3D Shapes
+⚡ High-performance WebGL Rendering
+🎮 Gesture Controls
+Gesture	Action
+✌️ Victory	Switch to next shape
+👌 Pinch	Expand / Contract particles
+✊ Fist	Collapse particle core
+🌠 Available Shapes
+🔵 Sphere
+❤️ Heart
+🪐 Saturn
+🌸 Flower
+🍩 Torus
 🛠️ Tech Stack
-Three.js → 3D rendering engine
-MediaPipe Hands → Hand tracking AI
-WebGL → High-performance graphics
-JavaScript (ES Modules)
-HTML + CSS
+Technology	Purpose
+Three.js	3D rendering
+MediaPipe Hands	Hand tracking AI
+WebGL	Graphics performance
+JavaScript (ES6+)	Logic
+HTML5 + CSS3	UI
 🤖 Built With AI Assistance
 
-This project was created with the help of:
+This project was enhanced using:
 
 ChatGPT
-Gemini
+Google Gemini
 GitHub Copilot
 
-AI helped in generating logic, optimizing math, and structuring the system.
+AI tools helped accelerate development, optimize logic, and improve creativity.
 
-📸 Demo Preview
-
-Add a screenshot or GIF here (recommended)
-
-🚀 How to Run
-Download or clone the repository:
+🚀 Getting Started
+1️⃣ Clone Repository
 git clone https://github.com/your-username/your-repo-name.git
-Open the project folder
-Run using a local server (important for webcam access):
-# Example using VS Code Live Server
-Right-click → Open with Live Server
-Allow camera permissions
-🎮 Controls
-Gesture	Action
-✌️ Victory	Change shape
-👌 Pinch	Zoom in/out
-✊ Fist	Collapse particles
-⚙️ How It Works
-MediaPipe detects hand landmarks (21 points)
-Gestures are recognized using landmark positions
-Three.js renders particles in 3D space
-Mathematical functions generate shapes
-Particles smoothly move using interpolation (LERP)
-📂 Project Structure
-index.html   → Main application (all-in-one file)
-💡 Future Improvements
-Add more gestures (swipe, rotate)
-Sound/music reactive particles 🎵
-Mobile optimization 📱
-VR/AR support 🥽
-Save & share custom particle scenes
-⚠️ Requirements
-Modern browser (Chrome recommended)
-Webcam access enabled
-Internet connection (for CDN libraries)
+2️⃣ Open Project
+cd your-repo-name
+3️⃣ Run Locally
+
+Use a local server (important for webcam access):
+
+# VS Code
+Right Click → Open with Live Server
+⚙️ Requirements
+🌐 Modern Browser (Chrome recommended)
+🎥 Webcam Access Enabled
+📶 Internet (for CDN libraries)
+🧠 How It Works
+MediaPipe detects 21 hand landmarks
+Gestures are calculated using landmark positions
+Mathematical formulas generate 3D shapes
+Particles move using LERP interpolation
+Three.js renders everything in real-time
+📁 Project Structure
+📦 project
+ └── index.html   # Complete application
+📸 Demo Preview
+<p align="center"> 👉 Add GIF / Screenshot here for best impact </p>
+🚧 Future Enhancements
+🎵 Music reactive particles
+📱 Mobile support
+🥽 AR/VR integration
+🎨 Custom shape generator
+🧩 More gesture controls
 🙌 Credits
-
-Inspired by:
-
-Three.js community
-MediaPipe team
-AI tools ecosystem
+Three.js Community
+MediaPipe Team
+AI Development Tools
 📜 License
 
 This project is open-source and free to use.
 
-⭐ Support
+⭐ Show Your Support
 
 If you like this project:
 
-⭐ Star the repo
+⭐ Star the repository
 🍴 Fork it
-🚀 Share it
+🚀 Share with others
+👨‍💻 Author
+
+Saurabh Patel
+Computer Engineering Student
+
+💡 “Where AI meets creativity and real-time interaction.”
