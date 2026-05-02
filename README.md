@@ -98,11 +98,17 @@ Particles_Game/
 └── README.md
 ```
 
-## 📸 Demo Preview
+## 📸 Visual Preview
 
 <p align="center">
-	<img src="https://placehold.co/1200x675/0f172a/f8fafc?text=Add+your+demo+screenshot+or+GIF+here" alt="Demo preview placeholder">
+	<img src="https://placehold.co/1200x675/0f172a/f8fafc?text=Project+Screenshot+Here" alt="Project screenshot placeholder">
 </p>
+
+<p align="center">
+	<img src="https://placehold.co/1200x675/111827/f59e0b?text=Add+an+animated+GIF+preview+here" alt="Animated GIF placeholder">
+</p>
+
+<p align="center"><i>Replace these placeholders with a real screenshot and GIF whenever you add them to the repository.</i></p>
 
 ## 🤖 Built With AI Assistance
 
