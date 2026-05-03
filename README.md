@@ -1,4 +1,4 @@
-# 🌌 Hand Gesture Controlled 3D Particle System
+# 🌌 Hand Gesture Controlled 3D Particle System....
 
 <p align="center">
 	<b>AI-powered interactive 3D visualization using hand gestures in real time</b><br><br>
