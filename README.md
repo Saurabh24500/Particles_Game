@@ -82,7 +82,7 @@ Use a local server because webcam access usually requires it.
 - 🎥 Webcam permission enabled
 - 📶 Internet connection for CDN-based libraries
 
-## 🧠 How It Works
+## 🧠 How It Works....
 
 1. MediaPipe detects 21 hand landmarks.
 2. Gesture logic interprets landmark relationships.
