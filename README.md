@@ -10,7 +10,7 @@
 
 -----
 
-## ✨ Overview
+## ✨ Overview...
 
 This project is an interactive 3D particle system that responds to hand gestures captured through your webcam.
 
