@@ -28,7 +28,7 @@ It blends AI hand tracking with 3D rendering to create a futuristic, immersive, 
 | ⚡ Fast rendering | Powered by WebGL and Three.js for smooth performance |
 | 🎮 Gesture controls | Simple gestures make the scene interactive |
 
-## 🤏 Gesture Controls
+## 🤏 Gesture Controls..
 
 | Gesture | Action |
 |---|---|
