@@ -16,7 +16,7 @@ This project is an interactive 3D particle system that responds to hand gestures
 
 It blends AI hand tracking with 3D rendering to create a futuristic, immersive, and highly responsive visual experience.
 
-## 🎯 Features
+## 🎯 Features...
 
 | Feature | Description |
 |---|---|
